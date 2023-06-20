@@ -1,3 +1,4 @@
+//This script lets a user sign up for a firebase user account
 import React, { useState, useContext } from "react";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { getAuth } from "firebase/auth";
