@@ -1,3 +1,4 @@
+//This file logs the user in client side with Firebase
 import React, { useContext, useState } from "react";
 import {
   View,
