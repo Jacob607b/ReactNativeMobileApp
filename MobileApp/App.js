@@ -66,7 +66,7 @@ export default function App() {
             headerTitleAlign: "center",
           }}
         >
-          <Stack.Screen name="AccountCode" component={AccountCode} />
+          <Stack.Screen name="AccountCode" component={AccountCodeLogin} />
         </Stack.Navigator>
       </NavigationContainer>
     );
