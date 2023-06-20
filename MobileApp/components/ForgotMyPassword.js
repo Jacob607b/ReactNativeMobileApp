@@ -11,7 +11,7 @@ import {
 import { getAuth, sendPasswordResetEmail } from "firebase/auth";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
-export default function Forgot() {
+export default function ForgotMyPassword() {
   const [email, setEmail] = useState("");
   const auth = getAuth();
   const forgotPassword = async () => {
