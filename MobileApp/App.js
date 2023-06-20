@@ -3,14 +3,16 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 import { LogBox } from "react-native";
 import { PaperProvider } from "react-native-paper";
 import { DarkTheme } from "react-native-paper";
-import Welcome from "./components/Welcome";
-import SubmitImage from "./components/SubmitImage";
-import Confirmation from "./components/Confirmation";
-import AccountCodeLogin from "./components/AccountCode";
-import NavbarLogo from "./assets/NavbarLogo";
 import { StyleSheet } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
+
+import AccountCodeLogin from "./components/AccountCode";
+import Welcome from "./components/Welcome";
+import SubmitImage from "./components/SubmitImage";
+import Confirmation from "./components/Confirmation";
+import NavbarLogo from "./assets/NavbarLogo";
+
 import { AuthContext } from "./context/AuthContext";
 import { ImageContext } from "./context/ImageContext";
 import { IDContext } from "./context/IDContext";
@@ -55,7 +57,7 @@ export default function App() {
         </Stack.Navigator>
       </NavigationContainer>
     );
-    //====== If user is not Logged in the only page in the stack is where the user Logs in ======
+    //====== If user is not Logged in the only page in the stack is where the Login page that contacts the node server with the firebase admin sdk ======
   } else {
     stack = (
       <NavigationContainer>
