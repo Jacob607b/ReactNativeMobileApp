@@ -1,3 +1,4 @@
+// This Script allows a user to reset their firebase user password, an email is sent and handled through firebase
 import React, { useState } from "react";
 import {
   View,
