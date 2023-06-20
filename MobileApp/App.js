@@ -70,7 +70,7 @@ export default function App() {
     );
   }
 
-  // ========= Stack returned with all created Context ============
+  // ========= Stack returned with context ============
 
   return (
     <>
