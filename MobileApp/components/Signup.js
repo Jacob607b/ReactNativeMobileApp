@@ -18,8 +18,7 @@ export default function Signup({ navigation }) {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const { isLoggedIn, setIsLoggedIn } = useContext(AuthContext);
-  //bool-lean value for ID context
-  const { ID, setID } = useContext(IDContext);
+  
   //id state of value to be sent to server
   const [id, set_id] = useState("");
 
