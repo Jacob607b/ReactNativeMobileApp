@@ -6,7 +6,7 @@ import { DarkTheme } from "react-native-paper";
 import Welcome from "./components/Welcome";
 import SubmitImage from "./components/SubmitImage";
 import Confirmation from "./components/Confirmation";
-import AccountCode from "./components/AccountCode";
+import AccountCodeLogin from "./components/AccountCode";
 import NavbarLogo from "./assets/NavbarLogo";
 import { StyleSheet } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
