@@ -9,9 +9,7 @@ import { getAuth, signInAnonymously } from "firebase/auth";
 import { AuthContext } from "../context/AuthContext";
 import { IDContext } from "../context/IDContext";
 import { Button, Card, Text, TextInput } from "react-native-paper";
-import { Formik } from "formik";
-import * as Yup from "yup";
-import * as Font from "expo-font";
+
 
 const AccountCode = ({ navigation }) => {
   const auth = getAuth();
